@@ -12,7 +12,8 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                'sans': ['Geist Sans', 'sans-serif'],
+                'mono': ['Geist Mono', 'monospace'],
             },
         },
     },

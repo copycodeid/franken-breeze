@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Geist Sans';
+    src: url('../../public/fonts/geist/Geist-Sans.woff2') format('woff2'),
+         url('../../public/fonts/geist/Geist-Sans.woff') format('woff'),
+         url('../../public/fonts/geist/Geist-Sans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('../../public/fonts/geist/Geist-Mono.woff2') format('woff2'),
+         url('../../public/fonts/geist/Geist-Mono.woff') format('woff'),
+         url('../../public/fonts/geist/Geist-Mono.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
